@@ -11,6 +11,6 @@ from app import create_app
 app = create_app()
 
 # Verifica si el script se ejecuta directamente (no importado)
-if __name__ == '__main__':
-    # Inicia el servidor Flask en todas las interfaces, puerto 5000, con modo debug activado
-    app.run(host='0.0.0.0', port=5000, debug=True)
+# if __name__ == '__main__':
+#     # Inicia el servidor Flask en todas las interfaces, puerto 5000, con modo debug activado
+#     app.run(host='0.0.0.0', port=5000, debug=True)
